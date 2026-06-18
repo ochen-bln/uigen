@@ -4,7 +4,10 @@
       "Bash(curl -s http://localhost:3000)",
       "Bash(pkill -f \"next dev\")",
       "Bash(npm run *)",
-      "Bash(killall node *)"
+      "Bash(killall node *)",
+      "mcp__playwright",
+      "Bash(npx playwright *)",
+      "Bash(PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=false npx playwright install --with-deps)"
     ]
   }
 }
